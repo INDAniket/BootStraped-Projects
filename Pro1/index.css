@@ -36,7 +36,8 @@ h1 {
 }
 
 h2 {
-   font-size: 3rem;
+   font-size: 2.5rem;
+   font-family: "Poppy";
 }
 
 p {
@@ -173,4 +174,68 @@ p {
 
 .online-mode-section {
    padding: 6rem 0 3rem !important;
+}
+
+/* carousel style section */
+
+.carousel-indicators [data-bs-target] {
+   width: 19px;
+   height: 10px;
+}
+
+.carousel-indicators {
+   bottom: -20px;
+   margin: 10px;
+}
+
+
+.fa-star {
+   color: var(--bs-supporting-color);
+}
+
+
+.carousel-inner .card {
+   background-color: #262631;
+   color: var(--bs-main-color);
+   font-weight: bold;
+}
+
+
+.carousel-inner .card p {
+   color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover {
+   background-color: var(--bs-main-color);
+   color: var(--bs-supporting-color);
+   transition: all 1s ease;
+}
+
+.carousel-inner .card:hover p {
+   color: var(--bs-supporting-color);
+   font-weight: bold;
+}
+
+
+.carousel-inner .carousel-item {
+   transition: transform 0.6s ease;
+}
+
+.d-flex .card img {
+   width: 236px;
+   height: 225px;
+}
+
+.Experts-panel-section {
+   background-color: var(--bs-main-color);
+   color: var(--bs-dark-color);
+   margin: 0 -20px;
+   padding-bottom: 50px;
+   ;
+   position: relative;
+   top: 20px;
+}
+
+.row {
+   --bs-gutter-x: -12.5rem;
 }
