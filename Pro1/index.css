@@ -230,7 +230,7 @@ p {
    background-color: var(--bs-main-color);
    color: var(--bs-dark-color);
    margin: 0 -20px;
-   padding-bottom: 50px;
+   padding-bottom: 0px;
    ;
    position: relative;
    top: 20px;
@@ -238,4 +238,75 @@ p {
 
 .row {
    --bs-gutter-x: -12.5rem;
+}
+
+
+/* contact section styleing */
+.contact-section {
+   position: relative;
+
+}
+
+.custom-shape-divider-top-1714631579 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.custom-shape-divider-top-1714631579 svg {
+   position: relative;
+   display: block;
+   width: calc(100% + 1.3px);
+   height: 150px;
+}
+
+.custom-shape-divider-top-1714631579 .shape-fill {
+   fill: #FFFFFF;
+}
+
+.contact-heading {
+   padding: 6rem;
+}
+
+.contact-section .form-section {
+   width: 50%;
+   color: var(--bs-main-color);
+}
+
+/* contact section styleing ends*/
+
+/* footer section styling starts */
+
+.main-footer-section {
+   background-color: var(--bs-dark-primary);
+}
+
+/* footer section styling ends */
+
+
+/* media-queries-for responsiveness */
+
+@media screen and (max-width: 998px) {
+
+   .navbar-toggler {
+      border-color: var(--bs-main-color);
+   }
+
+   .navbar-toggler-icon {
+      color: var(--bs-main-color);
+      background-color: var(--bs-main-color);
+   }
+
+   h1 {
+      font-size: 2.4rem;
+      
+   }
+
+   .hero-video--section {
+      width: 15rem;
+   }
+
 }
